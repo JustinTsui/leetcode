@@ -1,4 +1,6 @@
-#595. Big Countries
+# 595. Big Countries
+[Link](https://leetcode.com/problems/big-countries)
+
 
 There is a table `World`
 
