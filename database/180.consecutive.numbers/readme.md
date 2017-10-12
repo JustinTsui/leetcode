@@ -1,3 +1,5 @@
+[Link](https://leetcode.com/problems/consecutive-numbers/description/)
+
 Write a SQL query to find all numbers that appear at least three times consecutively.
 
 ```
