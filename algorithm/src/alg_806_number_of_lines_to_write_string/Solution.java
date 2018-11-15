@@ -1,4 +1,4 @@
-package alg_806_number_of_lines_to_write_stirng;
+package alg_806_number_of_lines_to_write_string;
 
 /**
  * https://leetcode.com/problems/number-of-lines-to-write-string/
