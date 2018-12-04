@@ -1,5 +1,7 @@
 package alg_617_merge_two_binary_trees;
 
+import common.TreeNode;
+
 /**
  * https://leetcode.com/problems/merge-two-binary-trees/
  */
@@ -26,15 +28,5 @@ class Solution {
         result.right = right;
 
         return result;
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-
-        TreeNode(int x) {
-            val = x;
-        }
     }
 }
