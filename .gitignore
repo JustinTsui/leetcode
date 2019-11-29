@@ -3,3 +3,9 @@
 .idea
 out/
 output/
+
+**/.gradle
+**/gradle
+**/gradlew
+**/gradlew.bat
+**/build/
