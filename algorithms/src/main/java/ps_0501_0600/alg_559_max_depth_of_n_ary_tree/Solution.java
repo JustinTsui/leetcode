@@ -1,5 +1,7 @@
 package ps_0501_0600.alg_559_max_depth_of_n_ary_tree;
 
+import common.Node;
+
 import java.util.List;
 
 /**
@@ -28,17 +30,3 @@ public class Solution {
         return max;
     }
 }
-
-
-class Node {
-    public int val;
-    public List<Node> children;
-
-    public Node() {
-    }
-
-    public Node(int _val, List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-};

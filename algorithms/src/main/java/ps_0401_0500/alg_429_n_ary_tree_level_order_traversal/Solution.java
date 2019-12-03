@@ -1,5 +1,7 @@
 package ps_0401_0500.alg_429_n_ary_tree_level_order_traversal;
 
+import common.Node;
+
 import java.util.ArrayList;
 import java.util.List;
 

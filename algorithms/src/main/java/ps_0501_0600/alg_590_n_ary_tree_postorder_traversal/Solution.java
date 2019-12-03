@@ -1,5 +1,7 @@
 package ps_0501_0600.alg_590_n_ary_tree_postorder_traversal;
 
+import common.Node;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.LinkedList;
@@ -50,15 +52,4 @@ public class Solution {
     }
 }
 
-class Node {
-    public int val;
-    public List<Node> children;
 
-    public Node() {
-    }
-
-    public Node(int _val, List<Node> _children) {
-        val = _val;
-        children = _children;
-    }
-}
