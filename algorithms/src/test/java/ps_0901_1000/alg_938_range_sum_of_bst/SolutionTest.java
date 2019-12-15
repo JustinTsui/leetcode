@@ -10,7 +10,7 @@ public class SolutionTest {
     private Solution solution = new Solution();
 
     @Test
-    public void testCase1() {
+    public void testcase1() {
         TreeNode root = new TreeNode(10);
 
         root.left = new TreeNode(5);
@@ -24,7 +24,7 @@ public class SolutionTest {
     }
 
     @Test
-    public void testCase2() {
+    public void testcase2() {
         TreeNode root = new TreeNode(10);
 
         root.left = new TreeNode(5);
