@@ -3,11 +3,6 @@ package ps_1101_1200.alg_1252_cells_with_odd_values_in_a_matrix;
 public class Solution {
     public int oddCells(int n, int m, int[][] indices) {
         int[][] matrix = new int[n][m];
-        inc(indices, matrix);
-        return countOdd(matrix);
-    }
-
-    private void inc(int[][] indices, int[][] matrix) {
         for (int[] ints : indices) {
             int row = ints[0];
             int col = ints[1];
@@ -19,21 +14,14 @@ public class Solution {
                 matrix[i][col]++;
             }
         }
-    }
-
-    private int countOdd(int[][] indices) {
         int result = 0;
-        for (int[] index : indices) {
+        for (int[] index : matrix) {
             for (int i : index) {
-                if (isOdd(i)) {
+                if ((i & 1) != 0) {
                     result++;
                 }
             }
         }
         return result;
-    }
-
-    private boolean isOdd(int i) {
-        return (i & 1) != 0;
     }
 }
