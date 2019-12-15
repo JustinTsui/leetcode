@@ -1,6 +1,8 @@
 package ps_0001_0100.alg_002_add_two_numbers;
 
 
+import common.ListNode;
+
 public class Solution {
     private ListNode trim(ListNode list) {
         ListNode index = list;
@@ -38,14 +40,5 @@ public class Solution {
         }
 
         return trim(result);
-    }
-
-    static class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }

@@ -1,5 +1,7 @@
 package ps_0801_0900.alg_876_middle_of_the_linked_list;
 
+import common.ListNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -29,14 +31,5 @@ public class Solution {
             slow = slow.next;
         }
         return slow;
-    }
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
     }
 }
